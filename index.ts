@@ -75,7 +75,7 @@ wss.on('connection', (ws) => {
             });
         });
     }).connect({
-        host: '192.168.31.190', // SSH server address
+        host: '192.168.1.77', // SSH server address
         port: 22,                // SSH port
         username: 'zhaos', // SSH username
         password: '123456'  // SSH password
